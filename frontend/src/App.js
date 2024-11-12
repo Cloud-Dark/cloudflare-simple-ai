@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 import { marked } from 'marked';
+import env from "react-dotenv";
 
 function App() {
   const [model, setModel] = useState('@cf/qwen/qwen1.5-14b-chat-awq');
@@ -59,7 +60,7 @@ function App() {
     const config = {
       method: 'post',
       maxBodyLength: Infinity,
-      url: process.env.BACKEND_SERVER, // Access the environment variable
+      url: env.BACKEND_SERVER, // Access the environment variable
       headers: { 
         'Content-Type': 'application/json'
       },
