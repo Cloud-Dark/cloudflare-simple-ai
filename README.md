@@ -1,6 +1,7 @@
 # Simple AI Chat Application
 
 This project is a two-part application that includes a **React frontend** for user interaction and a **Cloudflare Worker backend** for processing AI model requests. The frontend allows users to select models, enter chat messages, and receive AI-generated responses.
+![image](https://github.com/user-attachments/assets/d510bc5a-8111-4add-8332-e969be2b58c1)
 
 ## Project Structure
 
@@ -52,7 +53,7 @@ The frontend is a React application that sends chat messages to the backend Work
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Cloud-Dark/cloudflare-simple-ai/
 cd frontend
 ```
 
